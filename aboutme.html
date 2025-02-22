@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalistic Menu Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: rgb(60, 255, 0);
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #161b22;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="logo">
+            <img src=".jpeg" alt="">
+            <h2>Adit Chhetri</h2>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+
+        
+    </div>
+    <span class="openbtn" onclick="openNav()">&#9776; </span>
+
+
+    <script src="scripts.js"></script>
+
+    <div class="container">
+        <img src="adit.jpeg" alt="Your Photo">
+        <h2>Adit Chhetri</h2>
+        <p>Email: bikramjnec@gmail.com</p>
+        <p>Phone: 17324772</p>
+        <h3>Projects</h3>
+        <ul>
+            <li>Python projects - Github https://github.com/Aditdevbhutan/py-wapps-by-adit</li>
+            <li>PPS website - https://phuentsholingps.netlify.app/</li>
+        </ul>
+    </div>
+</body>
+</html>

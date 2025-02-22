@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalistic Menu Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            padding: 20px;
+            background: #161b22;
+        }
+        h1, h2 {
+            color: #58a6ff;
+        }
+        .projects {
+            text-align: left;
+            margin-top: 20px;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="logo">
+            
+            <h2>Adit Chhetri</h2>
+        
+        </div>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+    </div>
+    <span class="openbtn" onclick="openNav()">&#9776; </span>
+
+
+    <script src="scripts.js"></script>
+    <header>
+        <h1>Aditdevbhutan</h1>
+        <p>Passionate Programmer | HTML | CSS | JavaScript | Python</p>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I love programming and creating new things. I enjoy working with various programming languages and developing innovative projects.</p>
+        
+        <h2>Projects</h2>
+        <div class="projects">
+            <ul>
+                <li><strong>Python Calculator GUI (Tkinter)</strong> - <a href="https://github.com/Aditdevbhutan/py-wapps-by-adit" target="_blank">GitHub</a></li>
+                <li><strong>Digital Clock</strong> - <a href="https://github.com/Aditdevbhutan/py-wapps-by-adit" target="_blank">GitHub</a></li>
+                <li><strong>School Website</strong> - <a href="https://phuentsholingps.netlify.app/" target="_blank">Live Site</a> | <a href="https://github.com/Aditdevbhutan/pps-website" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        
+        <h2>Find Me Online</h2>
+        <p>GitHub: <a href="https://github.com/Aditdevbhutan" target="_blank">Aditdevbhutan</a></p>
+    </div>
+</body>
+</html>
